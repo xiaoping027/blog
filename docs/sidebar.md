@@ -37,6 +37,7 @@
   - [异步](03-JavaScript进阶/09-异步.md)
   - [Arguments 对象](03-JavaScript进阶/10-Arguments.md)
   - [Promise 使用](03-JavaScript进阶/11-Promise.md)
+  - [前端错误监控](03-JavaScript进阶/13-前端监控.md)
 
 - DOM
 
