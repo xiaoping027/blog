@@ -4,6 +4,8 @@
 >
 > 个人博客网站,学习记录
 
+![img]('./docs/_media/qrcode.png)
+
 - JavaScript 数据结构
 
 - JavaScript 题目
