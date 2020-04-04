@@ -10,18 +10,38 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="icon" href="https://docsify.js.org/_media/favicon.ico">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+    .qrcode {
+      position: absolute;
+      z-index: 10;
+      right: 100px;
+      height: 100px;
+    }
+
+    .qrcode img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
 </head>
 
 <body>
-  <div id="app"></div>
+  <div class="qrcode">
+    <img src="/_media/qrcode.png" alt="前端学习者">
+  </div>
+  <div id="app">
+
+  </div>
   <script>
     window.$docsify = {
       search: 'auto',
-      // routerMode: 'history',
       name: '前端开发学习',
+      logo: '/_media/qrcode.png',
       repo: 'https://github.com/xiaoping027/xiaoping027.github.io',
-      loadSidebar: "sidebar.md",
-      homepage: 'sidebar.md',
+      loadSidebar: "_sidebar.md",
+      homepage: '_sidebar.md',
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
       auto2top: true,
       autoHeader: true,
@@ -43,6 +63,9 @@
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script>
+
+  </script>
 </body>
 
 </html>
