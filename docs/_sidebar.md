@@ -119,7 +119,8 @@
 
 - webpack
 
-  - [loader 和 plugin 区别](08-webpack/01-loader和plugin区别)
+  - [loader 和 plugin 区别](08-webpack/01-loader和plugin区别.md)
+  - [webpack 配置](08-webpack/02-webpack配置.md)
 
 - Docker
 
