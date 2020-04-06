@@ -19,10 +19,11 @@
 
 - JavaScript 题目
 
-  - [01-洗牌算法](02-JavaScript手写题/01-洗牌算法.md)
-  - [02-递归生成 DOM](02-JavaScript手写题/02-递归生成DOM.md)
-  - [03-字符串相加](02-JavaScript手写题/03-字符串相加.md)
-  - [04-sleep 函数](02-JavaScript手写题/04-sleep函数.md)
+  - [洗牌算法](02-JavaScript手写题/01-洗牌算法.md)
+  - [递归生成 DOM](02-JavaScript手写题/02-递归生成DOM.md)
+  - [字符串相加](02-JavaScript手写题/03-字符串相加.md)
+  - [sleep 函数](02-JavaScript手写题/04-sleep函数.md)
+  - [实现模板字符串](02-JavaScript手写题/05-模板字符串.md)
 
 - JavaScript 进阶
 
@@ -49,7 +50,6 @@
   - [DOM 查找](04-DOM/05-DOM查找.md)
   - [meta viewport 相关](04-DOM/06-meta.md)
   - [html5 语义化](04-DOM/07-html语义化.md)
-  - [html5 语义化](04-DOM/07-html语义化.md)
 
 - CSS
 
@@ -65,6 +65,7 @@
 - 浏览器
 
   - [浏览器 storge](06-浏览器/01-storge.md)
+  - [浏览器缓存](06-浏览器/02-浏览器缓存.md)
 
 - 框架
 
