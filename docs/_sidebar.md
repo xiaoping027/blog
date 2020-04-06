@@ -38,6 +38,7 @@
   - [Arguments 对象](03-JavaScript进阶/10-Arguments.md)
   - [Promise 使用](03-JavaScript进阶/11-Promise.md)
   - [前端错误监控](03-JavaScript进阶/13-前端监控.md)
+  - [移动端 touch 事件](03-JavaScript进阶/15-touch事件.md)
 
 - DOM
 
@@ -47,6 +48,7 @@
   - [元素大小](04-DOM/04-元素大小.md)
   - [DOM 查找](04-DOM/05-DOM查找.md)
   - [meta viewport 相关](04-DOM/06-meta.md)
+  - [html5 语义化](04-DOM/07-html语义化.md)
   - [html5 语义化](04-DOM/07-html语义化.md)
 
 - CSS
@@ -58,6 +60,7 @@
   - [元素显示与隐藏](05-CSS/05-元素隐藏.md)
   - [画圆环](05-CSS/06-画圆环.md)
   - [CSS 继承](05-CSS/07-CSS继承.md)
+  - [CSS 三角形](05-CSS/08-CSS三角形.md)
 
 - 浏览器
 
@@ -101,7 +104,6 @@
 
   - react 业务组件
 
-    - [上传图片组件](07-框架/03-react-业务组件/01-上传图片组件.md)
     - [验证码组件](07-框架/03-react-业务组件/02-验证码组件.md)
     - [圆环组件](07-框架/03-react-业务组件/03-圆环组件.md)
 
