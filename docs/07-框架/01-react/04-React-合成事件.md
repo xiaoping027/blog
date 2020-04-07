@@ -1,8 +1,8 @@
 # React-合成事件
 
-React 实现了一个合成事件层，就是这个事件层，把 IE 和 W3C 标准之间的兼容问题给消除了
+React 实现了一个合成事件层，就是这个事件层，把 `IE` 和 `W3C` 标准之间的兼容问题给消除了
 
-因为合成事件的触发是基于浏览器的事件机制来实现的，通过冒泡机制冒泡到最顶层元素，然后再由 dispatchEvent 统一去处理.
+因为合成事件的触发是基于浏览器的事件机制来实现的，通过冒泡机制冒泡到最顶层元素，然后再由 `dispatchEvent` 统一去处理.
 
 - React 上注册的事件最终会绑定在 document 这个 DOM 上，而不是 React 组件对应的 DOM(减少内存开销就是因为所有的事件都绑定在 document 上，其他节点没有绑定事件)
 - React 自身实现了一套事件冒泡机制
@@ -84,7 +84,7 @@ const SimpleEventPlugin: PluginModule<MouseEvent> = {
   // simpleEventPluginEventTypes gets populated from
   // the DOMEventProperties module.
   eventTypes: simpleEventPluginEventTypes,
-  extractEvents: function(
+  extractEvents: function (
     topLevelType: TopLevelType,
     targetInst: null | Fiber,
     nativeEvent: MouseEvent,
@@ -200,7 +200,7 @@ const SimpleEventPlugin: PluginModule<MouseEvent> = {
     );
     accumulateTwoPhaseDispatches(event);
     return event;
-  }
+  },
 };
 ```
 
@@ -217,7 +217,7 @@ class Demo extends React.PureComponent {
     $this.addEventListener("click", this.onDOMClick, false);
   }
 
-  onDOMClick = evt => {
+  onDOMClick = (evt) => {
     // ...
   };
 
@@ -236,11 +236,11 @@ class Demo extends React.PureComponent {
     $this.addEventListener("click", this.onDOMClick, false);
   }
 
-  onDOMClick = evt => {
+  onDOMClick = (evt) => {
     console.log("dom event");
   };
 
-  onClick = evt => {
+  onClick = (evt) => {
     console.log("react event");
   };
 
@@ -252,3 +252,12 @@ class Demo extends React.PureComponent {
 
 - 原生事件（阻止冒泡）会阻止合成事件的执行
 - 合成事件（阻止冒泡）不会阻止原生事件的执行
+- 不要触发任何其他元素的事件，调用 e.nativeEvent.stopImmediatePropagatio
+
+- e.stopPropagation → 用来阻止 React 模拟的事件冒泡
+- e.stopImmediatePropagation → 没有这个函数
+- e.nativeEvent.stopPropagation → 原生事件对象的用于阻止 DOM 事件的进一步捕获或者冒泡
+- e.nativeEvent.stopImmediatePropagation → 原生事件对象的用于阻止 DOM 事件的进一步捕获或者冒泡，且该元素的后续绑定的相同事件类型的事件也被一并阻止。
+- React 中另一个不同点是你不能通过返回 false 的方式阻止默认行为。你必须显式的使用 preventDefault
+
+> <https://github.com/youngwind/blog/issues/107>

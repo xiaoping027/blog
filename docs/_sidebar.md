@@ -82,6 +82,7 @@
     - [React-PureComponent](07-框架/01-react/10-React-PureComponent.md)
     - [React-组件更新](07-框架/01-react/11-React-组件更新.md)
     - [React-受控与非受控](07-框架/01-react/12-React-受控与非受控.md)
+    - [React-事件绑定](07-框架/01-react/13-React-事件绑定.md)
 
   - react-router
 
