@@ -17,14 +17,6 @@
   - [Object.is](01-JavaScript数据结构/15-Object.is.md)
   - [进程与线程](01-JavaScript数据结构/16-进程与线程.md)
 
-- JavaScript 题目
-
-  - [洗牌算法](02-JavaScript手写题/01-洗牌算法.md)
-  - [递归生成 DOM](02-JavaScript手写题/02-递归生成DOM.md)
-  - [字符串相加](02-JavaScript手写题/03-字符串相加.md)
-  - [sleep 函数](02-JavaScript手写题/04-sleep函数.md)
-  - [实现模板字符串](02-JavaScript手写题/05-模板字符串.md)
-
 - JavaScript 进阶
 
   - [继承](03-JavaScript进阶/01-继承.md)
