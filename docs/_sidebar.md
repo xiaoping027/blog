@@ -34,6 +34,8 @@
   - [移动端 touch 事件](03-JavaScript进阶/15-touch事件.md)
   - [设计模式](03-JavaScript进阶/16-设计模式.md)
   - [箭头函数](03-JavaScript进阶/17-箭头函数.md)
+  - [斐波那契约数解法](03-JavaScript进阶/18-斐波那契约数.md)
+  - [面向对象编程](03-JavaScript进阶/19-面向对象编程.md)
 
 - DOM
 
