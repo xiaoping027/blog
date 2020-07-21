@@ -35,7 +35,7 @@
   - [010-Arguments 对象](03-JavaScript进阶/10-Arguments.md)
   - [011-Promise 使用](03-JavaScript进阶/11-Promise.md)
   - [013-前端错误监控](03-JavaScript进阶/13-前端监控.md)
-  - [014-前端错误监控](03-JavaScript进阶/14-纯函数.md)
+  - [014-函数式编程](03-JavaScript进阶/14-纯函数.md)
   - [015-移动端 touch 事件](03-JavaScript进阶/15-touch事件.md)
   - [016-设计模式](03-JavaScript进阶/16-设计模式.md)
   - [017-箭头函数](03-JavaScript进阶/17-箭头函数.md)
